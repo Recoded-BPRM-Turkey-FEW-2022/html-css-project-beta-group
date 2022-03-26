@@ -1,3 +1,35 @@
+.page2{
+    text-align: center;
+}
+.features{
+    display: flex;
+ flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    
+
+
+
+}
+.elements{
+    flex: 1;
+    margin: 10px;
+    align-items: stretch;
+
+
+}
+.imgs{
+    height: 70px ;
+    width: 70px;
+}
+.P2headers{
+    color: #00B172;
+}
+.txtbox{
+    color: gray;
+    text-align: center;
+}
+
 /*
 Colors:
 
