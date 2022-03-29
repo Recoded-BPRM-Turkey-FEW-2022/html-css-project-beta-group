@@ -1,10 +1,8 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
 
 * {
@@ -41,6 +39,7 @@ div a {
     align-items: center;
     align-self: center;
     justify-self: center;
+    grid-gap: 25px;
 }
 
 #page1Background {
