@@ -65,3 +65,145 @@ div a {
     font-size: 2vw;
     font-family: 'Rubik', serif;
 }
+* { margin: 0; padding: 0; }
+
+html {
+    height: 200vh;
+}
+
+.page3  {
+    /* width: 100%; */
+    height: 700px;
+    margin: 0px;
+    /* background-color: #1DB954; */
+    /* font-style: 'Rubik','serif'; */
+}
+
+.page3 * {
+    font-style: 'Rubik','serif';
+}
+
+
+.page3-container {
+    background-color: #1ab16a; 
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    /* border: 5px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+}
+
+
+.page3-box-container-div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: end;
+}
+
+.page3-title {
+    color: white;
+    margin-left: 5%;
+    /* font-weight: 00; */
+
+    position: relative;
+    bottom: 45px;
+    font-style: 'Rubik','serif';
+    
+
+    /* border: 2px solid black; */
+    text-decoration: underline;
+    width: 100%;
+    height: 50%;
+    font-size: 40px;
+    text-underline-offset: 15px;
+    /* margin-bottom: ; */
+}
+
+
+
+.page3-box{
+    color: white;
+    margin-left: 5%;
+    /* border: 2px solid black; */
+    width: 70%;
+    padding-right: 1%;
+    height: 80%;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    word-spacing: 2px;
+    
+
+} 
+
+.page3-box h3{
+    margin-bottom: 5%;
+    font-size:x-large;
+    font-style: 'Rubik';
+}
+
+.page3-box p {
+
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", 'serif';
+    font-weight: normal;
+    font-size: medium;
+}
+
+
+
+
+
+
+.page3-image-div {
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.page3-image {
+
+    height: 60%;
+    width: 100%;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+
+
+.page3-logo-div {
+    position: relative;
+    right: 80px;
+    height: 100%;
+    /* border: 6px solid grey; */
+    position: relative;
+    width: 10%;
+    /* height: 100%; */
+}
+
+
+.page3-logo {
+    width: 80%;
+    /* height: 20%; */
+    /* border: 1px solid pink; */
+    margin: 0 auto;
+  
+    position: absolute;
+
+    top: 50%;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
