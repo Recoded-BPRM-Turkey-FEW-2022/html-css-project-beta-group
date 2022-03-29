@@ -1,3 +1,51 @@
+.page2 {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.page2 * {
+    margin-bottom: 15px;
+}
+.features{
+    display: flex;
+ flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    
+
+
+
+}
+.elements{
+    flex: 1;
+    margin: 10px;
+    align-items: stretch;
+
+
+}
+.imgs{
+    height: 70px ;
+    width: 70px;
+}
+.P2headers{
+    color: #00B172;
+    font-family: 'Rubik', serif;
+}
+.txtbox{
+    color: gray;
+    text-align: center;
+    font-family: 'Rubik', serif;
+}
+.container .page2 .h1p2{
+width: 30%;
+font-family: 'Rubik', serif;
+border-bottom: #00B172 solid 2px;
+margin-left: 38%;
+margin-right: 38%;
+padding-bottom: 5px;
+}
+
 /*
 Colors:
 Text: 1A1A1A
