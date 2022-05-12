@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
-  </head>
-  <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+
+  <!-- don't forget to link your styles -->
+</head>
+
+<body>
+  <div class="container">
+    <div class="page1">
+      <nav class="NRGridColumn">
+        <img id="SpotifyLogo" src="./images/spotify-logo.png" alt="Spotify logo">
+        <div class="NRGridLinks">
+          <div>
+            <a href="#">Premium</a>
+          </div>
+          <div>
+            <a href="#">Discover</a>
+          </div>
+          <div>
+            <a href="#">Help</a>
+          </div>
+          <div>
+            <a href="#">Download</a>
+          </div>
+        </div>
+      </nav>
+      <img id="page1Background" src="./images/landing.jpg" alt="Landing">
+      <div class="NRTextWrapper">
+        <h1>Music for everyone.</h1>
+        <p><br>Spotify is now free on mobile, tablet and computer.<br>
+          Listen to the right music, wherever you are.</p>
+      </div>
+    </div>
+    <div class="page2">
+      <h1 class="h1p2">What's on Spotify?</h1>
+
+      <div class="features">
+        <div class="elements">
+          <img class="imgs" src="./images/music-icon.png" alt="music ">
+          <h3 class="P2headers">Million of songs</h3>
+          <p class="txtbox">There are millions of songs on Spotify</p>
+        </div>
+        <div class="elements">
+          <img class="imgs" src="./images/high-quality-icon.png" alt="high-quality">
+          <h3 class="P2headers">HD Music</h3>
+          <p class="txtbox">Listen to music as if you were listening to live</p>
+        </div>
+        <div class="elements">
+          <img class="imgs" src="./images/devices-icon.png" alt="devices">
+          <h3 class="P2headers">Stream Everywhere</h3>
+          <p class="txtbox">Stream music on your smartphone, tablet or your computer</p>
+        </div>
+      </div>
+    </div>
+    <div class="page3">
+      <div class="page3-container">
+
+        <div class="page3-box-container-div">
+          <h3 class="page3-title">It's as yeezy as Kanye West.</h3>
+          <div class="page3-box">
+            <h3>Search</h3>
+            <p>Know what you want to listen to? <br> Just search and hit play</p>
+          </div>
+          <div class="page3-box">
+            <h3>Browse</h3>
+            <p>Check out the latest charts,<br> brand new releases and great bplaylist for right now</p>
+          </div>
+          <div class="page3-box">
+            <h3>Discover</h3>
+            <p>Enjoy new music every Monday <br> with your
+              own personal playlist. <br> Or sit back and enjoy Radio.</p>
+          </div>
+        </div>
+        <div class="page3-logo-div">
+          <img class="page3-logo" src="./images/spotify-icon-white.png" alt="spotify-logoo" class="spotify">
+        </div>
+        <div class="page3-image-div">
+          <img class='page3-image' src="./images/spotify-app.jpg" alt="app screen" class="page3-app">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
